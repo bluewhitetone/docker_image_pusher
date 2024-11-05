@@ -13,4 +13,5 @@
 #--platform=linux/amd64 redis:7.4-rc1
 #--platform=linux/amd64 linuxserver/qbittorrent:4.6.5
 #--platform=linux/amd64 malaohu/mobaxterm-genkey:latest
---platform=linux/amd64 linuxserver/qbittorrent:5.0.1
+#--platform=linux/amd64 linuxserver/qbittorrent:5.0.1
+mysql:8.0.40-debian
