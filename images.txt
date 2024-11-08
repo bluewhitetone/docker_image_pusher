@@ -14,4 +14,7 @@
 #--platform=linux/amd64 linuxserver/qbittorrent:4.6.5
 #--platform=linux/amd64 malaohu/mobaxterm-genkey:latest
 #--platform=linux/amd64 linuxserver/qbittorrent:5.0.1
-mysql:8.0.40-debian
+#mysql:8.0.40-debian
+johngong/baidunetdisk:4.17.7
+lkw199711/smanga:3.6.9
+linuxserver/calibre-web:nightly-version-f0b77022
