@@ -19,4 +19,5 @@
 #lkw199711/smanga:3.6.9
 #linuxserver/calibre-web:nightly-version-f0b77022
 #portainer/portainer-ce:linux-amd64
---platform=linux/amd64 lscr.io/linuxserver/wireguard:latest
+#--platform=linux/amd64 lscr.io/linuxserver/wireguard:latest
+--platform=linux/amd64 kylemanna/openvpn:latest
