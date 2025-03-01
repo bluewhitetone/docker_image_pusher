@@ -18,4 +18,5 @@
 #johngong/baidunetdisk:v_4.17.7_4.6.4_amd64
 #lkw199711/smanga:3.6.9
 #linuxserver/calibre-web:nightly-version-f0b77022
-portainer/portainer-ce:linux-amd64
+#portainer/portainer-ce:linux-amd64
+--platform=linux/amd64 lscr.io/linuxserver/wireguard:latest
