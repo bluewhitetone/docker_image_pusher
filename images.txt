@@ -10,13 +10,13 @@
 #--platform=linux/amd64 weejewel/wg-easy:nightly
 #--platform=linux/amd64 redis:7.4-rc1
 #--platform=linux/amd64 malaohu/mobaxterm-genkey:latest
-#--platform=linux/amd64 linuxserver/qbittorrent:5.0.1
 #registry.cn-shenzhen.aliyuncs.com/cnk3x/xunlei:latest
 #--platform=linux/amd64 kylemanna/openvpn:latest
 #--platform=linux/amd64 weejewel/wg-easy:nightly
 #--platform=linux/amd64 portainer/portainer-ce:latest
 #--platform=linux/amd64 ubuntu:noble-20250127
 #--platform=linux/amd64 weejewel/wg-easy:nightly
---platform=linux/amd64 mysql:latest
---platform=linux/amd64 redis:latest
---platform=linux/amd64 rabbitmq:management
+#--platform=linux/amd64 mysql:latest
+#--platform=linux/amd64 redis:latest
+#--platform=linux/amd64 rabbitmq:management
+--platform=linux/amd64 linuxserver/qbittorrent:5.0.4
