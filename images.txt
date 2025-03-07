@@ -5,26 +5,18 @@
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
 
-#mysql:8.0.37-debian
-#rabbitmq:3.13.3-management
 #bitnami/kafka:3.3.2
 #grafana/grafana:10.4.4-ubuntu
 #--platform=linux/amd64 weejewel/wg-easy:nightly
 #--platform=linux/amd64 redis:7.4-rc1
-#--platform=linux/amd64 linuxserver/qbittorrent:4.6.5
 #--platform=linux/amd64 malaohu/mobaxterm-genkey:latest
 #--platform=linux/amd64 linuxserver/qbittorrent:5.0.1
-#mysql:8.0.40-debian
-#johngong/baidunetdisk:v_4.17.7_4.6.4_amd64
-#lkw199711/smanga:3.6.9
-#linuxserver/calibre-web:nightly-version-f0b77022
-#portainer/portainer-ce:linux-amd64
-#--platform=linux/amd64 lscr.io/linuxserver/wireguard:latest
+#registry.cn-shenzhen.aliyuncs.com/cnk3x/xunlei:latest
 #--platform=linux/amd64 kylemanna/openvpn:latest
 #--platform=linux/amd64 weejewel/wg-easy:nightly
 #--platform=linux/amd64 portainer/portainer-ce:latest
 #--platform=linux/amd64 ubuntu:noble-20250127
-#registry.cn-shenzhen.aliyuncs.com/cnk3x/xunlei:latest
---platform=linux/amd64 weejewel/wg-easy:nightly
---platform=linux/amd64 portainer/portainer-ce:latest
---platform=linux/amd64 portainer/portainer-ce:latest
+#--platform=linux/amd64 weejewel/wg-easy:nightly
+--platform=linux/amd64 mysql:latest
+--platform=linux/amd64 redis:latest
+--platform=linux/amd64 rabbitmq:management
