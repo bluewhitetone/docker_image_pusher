@@ -18,4 +18,5 @@
 #--platform=linux/amd64 grafana/grafana:latest-ubuntu
 #--platform=linux/amd64 milvusdb/milvus:v2.5.5
 #--platform=linux/amd64 openvpn/openvpn-as:latest
---platform=linux/amd64 linuxserver/wireguard:latest
+#--platform=linux/amd64 linuxserver/wireguard:latest
+--platform=linux/amd64 syncthing/syncthing:latest
